@@ -1,0 +1,21 @@
+title: geeklunch
+name: ""
+output_dir: "."
+
+navbar:
+  title: ""
+  type: inverse
+  right:
+    - text: "Website tutorial"
+      href: index.html
+    - text: "About Geek-Lunch"
+      href: about.html
+
+output:
+  html_document:
+    theme: readable
+    css: style.css
+
+#Visual theme ("default", "cerulean", "journal", "flatly"(looks like researchgate), 
+#"darkly", "readable" ( #1 so far), "spacelab", "united", "cosmo", "lumen", 
+##"paper", "sandstone" (not bad), "simplex (ok)", or "yeti"). 
