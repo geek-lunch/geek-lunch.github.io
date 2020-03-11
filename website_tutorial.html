@@ -11,7 +11,7 @@
 
 
 
-<title>About Geek-Lunch</title>
+<title>Website tutorial</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -292,20 +292,122 @@ $(document).ready(function () {
 
 
 
+<h1 class="title toc-ignore">Granny’s recipes : Websites with Rmarkdown &amp; GitHub</h1>
 
 </div>
 
 
 <p><br />
 </p>
+<p><img src="images/cake_complete.jpg" style="width:25%; border:5px; margin-left: 10px" align="right"></p>
+<p><br />
+</p>
+<p>This website has been built for a lunch workshop led by Geek-Lunch Organisation. Base (“model”) files to build a website can be found <a href="https://github.com/geek-lunch/workshops" target="_blank">here <i class="fa fa-external-link" style="font-size:13px"> </i></a>, under the “websites_with_rmarkdown” folder. Building a basic website and hosting with with GitHub is basically like doing a cake, you go step by step and it is not that hard.</p>
+<p><br />
+<br />
+</p>
+<div id="list-of-ingredients" class="section level1">
+<h1>List of ingredients</h1>
+<p>The Filling:</p>
+<ul>
+<li>1 _site.yml</li>
+<li>1 style.css</li>
+<li>1 index.rmd (that will be knitted as a .html)</li>
+</ul>
+<p>The topping :</p>
+<ul>
+<li>Sprinkles and icing to taste</li>
+</ul>
+<p><br />
+<br />
+</p>
+</div>
+<div id="preparation" class="section level1">
+<h1>Preparation</h1>
+<div id="filling" class="section level2">
+<h2>Filling</h2>
+<p><img src="images/cake_filling.jpg" style="width:15%; margin-left: 10px" align="right"></p>
+<p><br />
+</p>
+<ol style="list-style-type: decimal">
+<li>Create a GitHub Repository with this name : “username.github.io”</li>
+</ol>
+<p><br />
+</p>
 <p float="left" align="middle">
-<img src="images/logo.png" alt="logo" style="width:2.5in; border:thin silver solid"/>
+<img src="images/create_repository1.png" alt="cr1" style="width:6in; border: thin silver solid"/> <img src="images/create_repository2.png" alt="cr2" style="width:3in; border: thin silver solid"/>
 </p>
 <p><br />
 </p>
-<p>Geek-lunch organization groups several graduate students at University Laval, most of them studying in ecology. Graduate students present sets of skills that might be useful for other students during their graduate studies. This organization is <strong>led</strong> by students and <strong>for</strong> students.</p>
-<p>Here is the <a href="https://github.com/geek-lunch/workshops" target="_blank"><i class="fab fa-github-square" style="font-size:18px"></i> repository</a> of Geek-lunch organization, where we store scripts on tips about coding, packages skills in R statistical software, but also sometimes other stuff related to biological sciences.</p>
-<p>This repository and web page is updated and maintained by <a href="https://github.com/florentdery" target="_blank"><i class="fab fa-github-square" style="font-size:18px"></i> F. Dery</a>. Please not that this website has been created mostly as a hands-on exercise of a Geek-Lunch meeting.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Create a <code>R</code> project with Version control in a new folder that you’ll create by cloning that ’username.github.io" repository on your local computer</li>
+</ol>
+<p><br />
+</p>
+<p float="left" align="middle">
+<img src="images/create_Rproject.png" alt="crp" style="width:6in; border: thin silver solid"/>
+</p>
+<p float="left" align="middle">
+<img src="images/create_Rproject2.png" alt="crp2" style="width:3in; border: thin silver solid"/> <img src="images/create_Rproject3.png" alt="crp3" style="width:3in; border: thin silver solid"/> <img src="images/create_Rproject4.png" alt="crp4" style="width:3in; border: thin silver solid"/>
+</p>
+<p><br />
+</p>
+<ol start="3" style="list-style-type: decimal">
+<li>Make sure that your <code>R</code> project is ready to build websites</li>
+</ol>
+<p><br />
+</p>
+<p float="left" align="middle">
+<img src="images/setting_Rproject.png" alt="enable_R" style="width:6in; border:thin silver solid"/>
+</p>
+<p align="middle">
+You might need to restart Rstudio if the “Build” tab and “build website” sub-tab does not show up in your environment pane after this step.
+</p>
+<p><br />
+</p>
+<ol start="4" style="list-style-type: decimal">
+<li>Generate files needed to create your websites (see <a href="#list-of-ingredients">list of ingredients</a>)</li>
+</ol>
+<p><br />
+</p>
+<p float="left" align="middle">
+<img src="images/generate_files.png" alt="gf" style="width:6in; border:thin silver solid"/>
+</p>
+<p><br />
+<br />
+</p>
+</div>
+<div id="topping" class="section level2">
+<h2>Topping</h2>
+<p><img src="images/cake_icing.png" style="width:25%; margin-left: 10px" align="right"></p>
+<p><br />
+</p>
+<p>Now it is time for creation. You can now modify <code>style.css</code> file to your taste, add content, graphs, pictures, <code>R</code> chunks, whatever!</p>
+<p>Here is where you can play with <code>R</code>, <code>Markdown</code>, <code>html</code> and <code>css</code> syntaxes, to name a few. You can also stick with Rmarkdown, If it is what’s working for you.</p>
+<p>You can also add Other pages, as I did <a href="https://geek-lunch.github.io/" target="_blank">here <i class="fa fa-external-link" style="font-size:13px"> </i></a>, as long as they are specified in you <code>_site.yml</code> file.</p>
+<p><br />
+</p>
+</div>
+<div id="oven-instructions" class="section level2">
+<h2>Oven instructions</h2>
+<p>Once you are satisfied, build your website, push commits to your repository, and your website (or cake-site?) will be available at <a href="https://username.github.io/" class="uri">https://username.github.io/</a>!</p>
+</div>
+</div>
+<div id="useful-links" class="section level1">
+<h1>Useful links</h1>
+<ul>
+<li><a href="https://pages.github.com/" target="_blank">GitHub pages</a></li>
+<li><a href="https://poldham.github.io/simple_website/create_yml.html" target="_blank">Crewating a <code>.yml</code> file</a></li>
+<li><a href="https://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html#personal_websites" target="_blank">Emily Zabor’s tutorial</a></li>
+<li><a href="https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html#a-simple-example" target="_blank">Website section of Rmarkdown book</a></li>
+<li><a href="https://www.w3schools.com/icons/icons_reference.asp" target="_blank">To find icons</a></li>
+<li><a href="https://www.w3.org/Style/Examples/007/figures.en.html" target="_blank"><code>CSS</code> figures and captions</a></li>
+<li><a href="https://www.xaprb.com/blog/how-to-style-images-with-markdown/" target="_blank">Images in <code>Markdown</code></a></li>
+<li><a href="https://getbootstrap.com/docs/4.4/components/navbar/" target="_blank">Guide to navigation bars</a></li>
+<li><a href="http://www.combiendemots.com/" target="_blank">To count word and time to read (French)</a></li>
+<li><a href="https://pandoc.org/MANUAL.html#extension-link_attributes" target="_blank">Extension and links</a></li>
+</ul>
+</div>
 
 
 

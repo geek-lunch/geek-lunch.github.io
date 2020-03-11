@@ -6,10 +6,10 @@ navbar:
   title: ""
   type: inverse
   right:
-    - text: "Website tutorial"
-      href: index.html
     - text: "About Geek-Lunch"
-      href: about.html
+      href: index.html
+    - text: "Website tutorial"
+      href: website_tutorial.html
 
 output:
   html_document:
