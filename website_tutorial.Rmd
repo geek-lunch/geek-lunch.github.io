@@ -118,7 +118,7 @@ Once you are satisfied, build your website, push commits to your repository, and
 # Useful links 
 
 - [GitHub pages](https://pages.github.com/){target="_blank"}
-- [Crewating a `.yml` file](https://poldham.github.io/simple_website/create_yml.html){target="_blank"}
+- [Creating a `.yml` file](https://poldham.github.io/simple_website/create_yml.html){target="_blank"}
 - [Emily Zabor's tutorial](https://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html#personal_websites){target="_blank"}
 - [Website section of Rmarkdown book](https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html#a-simple-example){target="_blank"}
 - [To find icons](https://www.w3schools.com/icons/icons_reference.asp){target="_blank"}
