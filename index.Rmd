@@ -7,7 +7,8 @@ css: style.css
 ```{r setup, include=FALSE}
 htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 ```
-
+ 
+ 
 \
 
 <p float="left" align="middle">
