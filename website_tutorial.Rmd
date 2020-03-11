@@ -107,7 +107,7 @@ Now it is time for creation. You can now modify `style.css` file to your taste, 
 
 Here is where you can play with `R`, `Markdown`, `html` and `css` syntaxes, to name a few. You can also stick with Rmarkdown, If it is what's working for you.
 
-You can also add Other pages, as I did [here <i class="fa fa-external-link" style="font-size:13px"> </i>](https://geek-lunch.github.io/){target="_blank"}, as long as they are specified in you `_site.yml` file.
+You can also add other pages, as I did [here <i class="fa fa-external-link" style="font-size:13px"> </i>](https://geek-lunch.github.io/index.html){target="_blank"}, as long as they are specified in you `_site.yml` file.
 
 \
 
